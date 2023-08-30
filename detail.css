@@ -1,0 +1,148 @@
+body {
+    width: 100vw;
+}
+
+section {
+    height: 100vh;
+    background: #1AC9A9;
+}
+
+header {
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    margin: 0;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50%;
+    background: none;
+    outline: none;
+    width: 25px;
+    height: 25px;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100%;
+    margin:0 1.225rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 6rem 2rem;
+    z-index: 999;
+}
+
+.main-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.main-info .id {
+    color: #106d5c;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: .525rem;
+}
+
+.title h2 {
+    font-size: 32px;
+}
+
+.types {
+    display: flex;
+    gap: .75rem;
+}
+
+.types span {
+    background: #ffffff42;
+    font-size: 12px;
+    padding: 2px 10px;
+    border-radius: 16px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    width: 180px;
+    z-index: 999;
+}
+
+.about {
+    position: absolute;
+    width: 100vw;
+    border-radius: 8% 8% 0 0;
+    z-index: 1;
+    bottom: 0;
+    height: 50vh;
+    background: #fff;
+}
+
+.statics {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 3.7rem;
+}
+
+.stats span {
+    font-weight: 700;
+    font-size: 18px;
+
+    margin: .25rem 1rem;
+}
+
+.about-statics {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+
+    padding-top: 1.75rem;
+    gap: 1.75rem;
+}
+
+.hp {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
+.hp span {
+    font-weight: 600;
+}
+
+.progress-bar {
+    width: 250px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: #ccc;
+}
+
+.progress-bar .percentual {
+    height: 100%;
+    width: 50%;
+    border-radius: 20px;
+    background-color: #1AC9A9;
+}
